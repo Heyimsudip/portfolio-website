@@ -197,6 +197,7 @@ h6,
   padding: 15px 40px;
   font-size: 12px;
   text-transform: uppercase;
+  background: white;
   color: #000;
   transition: .2s all ease;
   font-weight: 500;
