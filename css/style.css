@@ -1,13 +1,3 @@
-/*
-  Template Name: MyPortfolio
-  Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 *{
@@ -197,7 +187,7 @@ h6,
   padding: 15px 40px;
   font-size: 12px;
   text-transform: uppercase;
-  background: white;
+  background-color: white;
   color: #000;
   transition: .2s all ease;
   font-weight: 500;
