@@ -187,8 +187,8 @@ h6,
   padding: 15px 40px;
   font-size: 12px;
   text-transform: uppercase;
-  background-color: white;
-  color: #000;
+  background: #000;
+  color: #fff;
   transition: .2s all ease;
   font-weight: 500;
 }
@@ -200,9 +200,9 @@ h6,
 }
 
 .readmore:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  background: #000;
+  background: #fff;
 }
 
 .testimonial-carousel .owl-dots {
