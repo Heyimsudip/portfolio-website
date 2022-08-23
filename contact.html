@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sudip Chaudhary</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta name="description" content="Sudip Chaudhary is a Full Stack Web Developer. I have been gaining skills and experience in Web Design & Development, Business Analytics, SEO, Content Writing, and Digital Marketing.">
+  <meta content="HTML, CSS, JAVASCRIPT, JS, WEB DEVELOPMENT" name="keywords">
+  <meta name="author" content="Sudip Chaudhary" >
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/img/f.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="js/wow.min.js"></script>
+
+  <!-- =======================================================
+    Template Name: MyPortfolio
+    Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu about_paragraph about_text">
+            <li class="wow fadeInUp" data-wow-delay="0.1s"><a href="index.html">Home</a></li>
+            <li class="wow fadeInUp" data-wow-delay="0.2s"><a href="about.html">About Me</a></li>
+            <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="works.html">Works</a></li>
+            <li class="active wow fadeInUp" data-wow-delay="0.5s"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-none d-md-block  mr-auto">
+          <div class="tweet d-flex about_paragraph about_text">
+            <span class="icofont-twitter text-white mt-2 mr-3"></span>
+            <div>
+              <p>If you're looking for project ideas for your portfolio, do something out of the box and memorable. <br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block about_paragraph about_text">
+          <h3>Hire Me</h3>
+          <p class="dec"><a href="mailto:chaudharysudip1738@gmail.com"><span class="icofont-email"></span> chaudharysudip1738@gmail.com</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="/img/logo.png" class="wow fadeInUp" alt="logo" data-wow-delay="0.5s">
+      </a>
+
+      <a href="#" class="burger wow fadeInUp" data-toggle="collapse" data-target="#main-navbar" data-wow-delay="0.5s">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <div class="site-section pb-0 site-portfolio about_paragraph about_text">
+      <div class="container">
+
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>Let's Work Together!</h2>
+            <p>Get your space suit ready and tell me your ideas to develop your dream application.</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+            
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <!-- <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /> -->
+                  <input type="text" class="namee form-control" placeholder="Enter your name" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="name">Email</label>
+                  <!-- <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" /> -->
+                  <input type="email" class="gmail form-control" placeholder="Enter your email" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Subject</label>
+                  <!-- <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" /> -->
+                  <input type="text" class="subject form-control" placeholder="Enter the subject" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Message</label>
+                  <!-- <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea> -->
+                  <textarea
+                  class="msg form-control"
+                  cols="30"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                  <div class="validate"></div>
+                </div>
+
+
+                <div class="col-md-12 mb-3">
+                    <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="col-md-6 form-group">
+                  <input type="submit" class="readmore d-block w-100" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+
+          <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Address</strong>
+                <span><span class="icofont-location-pin"></span> Nakhipot, Lalitpur, Nepal</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span><a href="mailto:chaudharysudip1738@gmail.com" target="_blank">
+                  <span class="icofont-email"></span>  chaudharysudip1738@gmail.com
+                </a></span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Instagram</strong>
+                <span>
+                  <a href="https://www.instagram.com/heyimsudip/?hl=en" target="_blank"><span class="icofont-instagram"></span> @heyimsudip</a>
+                </span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">LinkedIn</strong>
+                <span>
+                  <a href="https://www.linkedin.com/in/sudip-chaudhary-6b4206198/" target="_blank"><span class="icofont-linkedin"></span> Sudip Chaudhary</a>
+                </span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Facebook</strong>
+                <span>
+                  <a href="https://www.facebook.com/heyimsudip/" target="_blank"><span class="icofont-facebook"></span> Sudip Chaudhary</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+  <br><br><br><br>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright Sudip. All Rights Reserved</p>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+            -->
+            Designed by <a href="index.html" target="_blank">Heyimsudip</a>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="col-sm-6 social text-md-right">
+          <a href="https://twitter.com/?lang=en" target="_blank"><span class="icofont-twitter"></span></a>
+          <a href="https://www.facebook.com/heyimsudip/" target="_blank"><span class="icofont-facebook"></span></a>
+          <a href="https://www.linkedin.com/in/sudip-chaudhary-6b4206198/" target="_blank"><span class="icofont-linkedin"></span></a>
+          <a href="https://www.instagram.com/heyimsudip/?hl=en" target="_blank"><span class="icofont-instagram"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scrollup" id="scroll-up" style="text-decoration: none">
+    <span class="la la-chevron-circle-up la-3x scrollup-icon "></span>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery-migrate.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/easing/easing.min.js"></script>
+  <!-- <script src="vendor/php-email-form/validate.js"></script> -->
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+  <script src=
+		"https://smtpjs.com/v3/smtp.js">
+		</script>
+  <script>
+    new WOW().init();
+    const form = document.querySelector(".php-email-form");
+			form.addEventListener("submit", e => {
+				e.preventDefault();
+				let name = document.querySelector(".namee").value;
+				let email = document.querySelector(".gmail").value;
+				let subject = document.querySelector(".subject").value;
+				let message = document.querySelector(".msg").value;
+				document.querySelector(".php-email-form").reset();
+
+				sendEmail(name, email, message, subject);
+			})
+
+			function sendEmail(name, email, message, subject) {
+				Email.send({
+					
+				Host: "smtp.elasticemail.com", 
+				Username: "demoforapplication321@gmail.com",
+				Password: "D2BE1D3E112913EDDAA5AFECC17BDFD077EE",
+				To: "chaudharysudip1738@gmail.com",
+				From: "demoforapplication321@gmail.com",
+				Subject: `${subject}`,
+				Body: `Name: ${name} <br> Email: ${email} <br> Message: ${message} <br>`,
+				}).then((success) => {
+				
+				alert("message sent successfully. Please check the spam folder in your mail.");
+				}).catch((error) => {
+					
+				alert("error sending message");
+				})
+			}
+  </script>
+
+</body>
+
+</html>
